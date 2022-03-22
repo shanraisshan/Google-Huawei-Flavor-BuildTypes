@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">zHuawei Stag</string>
+    <string name="color_type">Staging: Blue</string>
+    <string name="build_type">Staging</string>
+    <string name="open">Open Huawei Stag Push</string>
+</resources>

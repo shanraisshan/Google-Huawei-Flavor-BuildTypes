@@ -1,3 +1,9 @@
 <resources>
-    <string name="sa">1.0.0</string>
+    <string name="build_type_key">buildType (Base Url Key)</string>
+    <string name="build_type_desc">Key based on buildType(Staging/Production), irrelevant of flavor(Google/Huawei)</string>
+    <string name="flavor_key">flavor (Map key)</string>
+    <string name="flavor_desc">Key based on flavor(Google/Huawei), irrelevant of buildType(Staging/Production)</string>
+    <string name="buildType_flavor_key">buildType + flavor</string>
+    <string name="buildType_flavor_desc">Key based on both flavor(Google/Huawei) + buildType(Staging/Production)</string>
+
 </resources>

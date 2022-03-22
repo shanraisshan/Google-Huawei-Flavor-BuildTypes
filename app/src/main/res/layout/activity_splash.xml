@@ -1,8 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:gravity="center_horizontal"
     android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/color_type"
+        android:background="@color/build_type" />
+    <!-- -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/build_type_key"
+        android:background="@color/build_type" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:textSize="18dp"
+        android:text="@string/build_type_desc" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/buildTypeKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:text="www.api-staging.com" />
+    <!-- -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/flavor_key"
+        android:background="@color/build_type" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:textSize="18dp"
+        android:text="@string/flavor_desc" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/flavorKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:text="google-IzaSyC-11r9PgGY" />
+    <!-- -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/buildType_flavor_key"
+        android:background="@color/build_type" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:textSize="18dp"
+        android:text="@string/buildType_flavor_desc" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/buildTypeFlavorKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:text="www.api-staging.com" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+        android:onClick="open"
+        android:gravity="center"
+        android:text="@string/open"
+        android:background="@color/build_type" />
 </LinearLayout>

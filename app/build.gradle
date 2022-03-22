@@ -43,7 +43,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.debug
             debuggable true
-            resValue "string", "appName", "GoogleHuawei Stag"
+            //resValue "string", "appName", "GoogleHuawei Stag" //just change based on stag and prod
         }
         release {
             minifyEnabled true
@@ -51,7 +51,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
             debuggable false
-            resValue "string", "appName", "GoogleHuawei Prod"
+            //resValue "string", "appName", "GoogleHuawei Prod" //just change based on stag and prod
         }
     }
 
