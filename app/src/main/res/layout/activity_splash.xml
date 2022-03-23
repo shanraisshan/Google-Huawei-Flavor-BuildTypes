@@ -88,14 +88,14 @@
         android:textSize="18dp"
         android:textStyle="bold"
         tools:text="www.api-staging.com" />
-    <androidx.appcompat.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/open"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:textSize="25dp"
+        android:layout_margin="45dp"
+        android:textSize="15dp"
         android:onClick="open"
         android:gravity="center"
         android:text="@string/open"
-        android:background="@color/build_type" />
+        android:background="@color/white" />
 </LinearLayout>
