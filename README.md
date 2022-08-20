@@ -10,3 +10,9 @@ This project results in 4 different variations.
 2. Google Production
 3. Huawei Staging
 4. Huawei Production
+
+## Google
+![google](https://github.com/shanraisshan/Google-Huawei-Flavor-BuildTypes/blob/main/!/Google.jpeg)
+
+## Huawei
+![huawei](!/Huawei.jpeg)
